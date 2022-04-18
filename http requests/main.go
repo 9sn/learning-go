@@ -19,7 +19,7 @@ func main() {
 		log.Fatalln(err)
 	}
 	sb := string(body)
-	log.Printf(sb) // outputs the request from url
+	log.Printf(sb) // outputs the request
 
 	// HTTP POST REQUEST
 	postBody, _ := json.Marshal(map[string]string{
