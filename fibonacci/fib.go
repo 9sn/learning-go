@@ -16,7 +16,7 @@ func main() {
   var n int = 0
 
   for true {
-    fmt.Printf("F(%d) = F(%d)-1 + F(%d)-2\nF(%d) = %d\n", n, n, n, n, fib(n))
+    fmt.Printf("\nF(%d) = F(%d)-1 + F(%d)-2\nF(%d) = %d\n", n, n, n, n, fib(n))
     n++
   }
 
